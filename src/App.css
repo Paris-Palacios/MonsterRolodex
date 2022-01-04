@@ -7,9 +7,15 @@
   pointer-events: none;
 }
 
+h1 {
+  font-size: 4rem;
+  font-family: "Bigelow Rules";
+  color: #4091a5;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -25,7 +31,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #19aad3;
 }
 
 @keyframes App-logo-spin {
